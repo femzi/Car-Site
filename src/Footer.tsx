@@ -15,10 +15,10 @@ function Footer() {
         <div>
           <h3 className="font-semibold mb-4">Website</h3>
           <ul className="space-y-2">
-            <li className={linkClasses}>Home</li>
-            <li className={linkClasses}>Our services</li>
-            <li className={linkClasses}>About us</li>
-            <li className={linkClasses}>Why us?</li>
+            <li className={linkClasses}> Home</li>
+            <li className={linkClasses}> Our services</li>
+            <li className={linkClasses}> About us</li>
+            <li className={linkClasses}> Why us?</li>
           </ul>
         </div>
 
@@ -26,9 +26,9 @@ function Footer() {
         <div>
           <h3 className="font-semibold mb-4">Contact</h3>
           <ul className="space-y-2">
-            <li className={linkClasses}>Get a quote</li>
-            <li className={linkClasses}>Contact form</li>
-            <li className={linkClasses}>Email us</li>
+            <li className={linkClasses}> Get a quote</li>
+            <li className={linkClasses}> Contact form</li>
+            <li className={linkClasses}> Email us</li>
           </ul>
         </div>
 
@@ -36,10 +36,10 @@ function Footer() {
         <div>
           <h3 className="font-semibold mb-4">Social Media</h3>
           <ul className="space-y-2">
-            <li className={linkClasses}>Facebook</li>
-            <li className={linkClasses}>Instagram</li>
-            <li className={linkClasses}>Twitter</li>
-            <li className={linkClasses}>YouTube</li>
+            <li className={linkClasses}> Facebook</li>
+            <li className={linkClasses}> Instagram</li>
+            <li className={linkClasses}> Twitter</li>
+            <li className={linkClasses}> YouTube</li>
           </ul>
         </div>
       </div>
@@ -48,9 +48,9 @@ function Footer() {
       <div className="flex justify-between items-center mt-12 text-sm text-gray-400">
         <p>LuxeMotion © 2025</p>
         <div className="flex space-x-6">
-          <p className={linkClasses}>Cookie policy</p>
-          <p className={linkClasses}>Terms of service</p>
-          <p className={linkClasses}>Privacy policy</p>
+          <p className={linkClasses}> Cookie policy</p>
+          <p className={linkClasses}> Terms of service</p>
+          <p className={linkClasses}> Privacy policy</p>
         </div>
       </div>
     </footer>
