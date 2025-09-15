@@ -6,7 +6,7 @@ function About (){
         <>
        
        
-        <div className=" pl-14 bg-[#0F0F0F] pb-20 text-[#FFFFFF] font-mono">
+        <div className=" pl-14 bg-[#0F0F0F] pb-1 text-[#FFFFFF] font-mono">
         <p className="text-4xl font-bold">
         About Us
 
