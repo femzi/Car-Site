@@ -1,5 +1,4 @@
 import car from './assets/ContactCard.svg';
-
 function Contact() {
   return (
 <>

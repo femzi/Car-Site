@@ -56,15 +56,11 @@ function Footer() {
       </div>
     </footer>
  
- 
  <footer className="block md:hidden lg:hidden xl:hidden bg-[#0F0F0F] text-white px-6 py-10 font-mono">
   <div className="space-y-6 text-center">
-    {/* Brand */}
     <div>
       <h2 className="text-lg font-semibold">LuxeMotion</h2>
     </div>
-
-    {/* Quick Links */}
     <div>
       <h3 className="font-semibold mb-2">Links</h3>
       <ul className="space-y-1 flex flex-row text-sm text-gray-400">
@@ -74,8 +70,6 @@ function Footer() {
         <li><a href="#" className="hover:text-white pl-7">Contact</a></li>
       </ul>
     </div>
-
-    {/* Social */}
     <div>
       <h3 className="font-semibold mb-2">Follow Us</h3>
       <ul className="flex justify-center space-x-4 text-sm text-gray-400">
@@ -86,8 +80,6 @@ function Footer() {
       </ul>
     </div>
   </div>
-
-  {/* Bottom */}
   <div className="mt-8 text-xs text-gray-500 text-center">
     <p>LuxeMotion © 2025</p>
   </div>

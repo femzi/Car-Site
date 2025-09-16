@@ -29,7 +29,7 @@ const slides: Slide[] = [
 function Hero() {
   const [current, setCurrent] = useState(0);
 
-  // Auto slide every 6 seconds
+
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) => (prev + 1) % slides.length);
@@ -40,7 +40,6 @@ function Hero() {
 
   return (
     <div className="relative w-screen h-screen overflow-hidden">
-      {/* Slides */}
       <div
         className="flex transition-transform duration-700 ease-in-out"
         style={{ transform: `translateX(-${current * 100}%)` }}
@@ -55,9 +54,7 @@ function Hero() {
               alt={slide.text}
               className="w-full h-full object-cover"
             />
-            {/* Dark overlay that fades in on hover */}
             <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
-            {/* Hover Text */}
             <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-700">
               <p className="text-white text-3xl font-medium group-hover:font-semibold transition-all duration-700 ease-in-out group-hover:scale-105 group-hover:tracking-wide">
                 {slide.text}
@@ -67,7 +64,7 @@ function Hero() {
         ))}
       </div>
 
-      {/* Always-visible Text (Hero Heading) */}
+
       <div className="absolute inset-0 flex items-start">
         <div className="mt-24 ml-12">
           <h1 className="text-white text-4xl md:text-5xl lg:text-7xl xl:text-7xl font-bold drop-shadow-lg">
@@ -82,7 +79,6 @@ function Hero() {
         </div>
       </div>
 
-      {/* Dots */}
       <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex space-x-3">
         {slides.map((_, i) => (
           <button

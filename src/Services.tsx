@@ -36,7 +36,6 @@ function Services() {
   return (
   <>
     <div className="pt-10 pl-12   bg-[#0F0F0F] text-[#FFFFFF] font-mono">
-      {/* Heading (left-aligned) */}
       <div>
         <p className="text-4xl font-bold">Our Services</p>
         <p className="text-gray-400 font-medium mt-6">
@@ -46,7 +45,7 @@ function Services() {
         </p>
       </div>
 
-      {/* Cards (centered) */}
+
       <div className="flex xl:flex-row lg:flex-row flex-col xl:gap-8 mt-12 ">
         <Card
           image={cardOne}
