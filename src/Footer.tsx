@@ -7,7 +7,7 @@ function Footer() {
       <div className="grid grid-cols-4 gap-10">
         {/* Brand + description */}
         <div>
-          <h2 className="text-2xl font-semibold">LuxeMotion</h2>
+          <h2 className="text-xl font-semibold">LuxeMotion</h2>
        
         </div>
 
