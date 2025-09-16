@@ -12,13 +12,15 @@ function App() {
           </h1>
         </div>
 
-        {/* Cursor & Nav */}
+     <div className='hidden   lg:block xl:block'>
+        
         <div className="flex flex-col md:flex-row  ">
           <TargetCursor 
             spinDuration={2}
             hideDefaultCursor={true}
           />
           
+     </div>
        <div className='hidden md:block'>
            <ul className="flex flex-col md:flex-row xl:pr-88 md:space-x-8 lg:text-lg xl:text-lg">
             <li className="cursor-target xl:pl-5 hovering"><a href="">Home</a></li>
