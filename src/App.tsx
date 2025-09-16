@@ -1,6 +1,5 @@
 import './index.css'
 import TargetCursor from './components/TargetCursor';
-
 function App() {
   return (
     <>
@@ -11,15 +10,12 @@ function App() {
             LUXE MOTION
           </h1>
         </div>
-
         {/* Cursor & Nav */}
         <div className="flex flex-col md:flex-row  ">
-
         <div className='hidden md:hidden lg:block xl:block'>
             <TargetCursor 
             spinDuration={2}
             hideDefaultCursor={true}
-          
           />
         </div>
           
