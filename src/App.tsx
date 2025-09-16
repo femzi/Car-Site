@@ -14,10 +14,14 @@ function App() {
 
         {/* Cursor & Nav */}
         <div className="flex flex-col md:flex-row  ">
-          <TargetCursor 
+
+        <div className='hidden md:hidden lg:block xl:block'>
+            <TargetCursor 
             spinDuration={2}
             hideDefaultCursor={true}
+          
           />
+        </div>
           
        <div className='hidden md:block'>
            <ul className="flex flex-col md:flex-row xl:pr-88 md:space-x-8 lg:text-lg xl:text-lg">
