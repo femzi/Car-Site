@@ -42,12 +42,12 @@ function Services() {
         <p className="text-gray-400 font-medium mt-6">
           Owning a luxury car is just the beginning.
           <br />
-          We curated an experience beyond imagination.
+         <span className="hidden md:block"> We curated an experience beyond imagination.</span>
         </p>
       </div>
 
       {/* Cards (centered) */}
-      <div className="flex  md:flex-col xl:gap-8 mt-12 ">
+      <div className="flex xl:flex-row lg:flex-row flex-col xl:gap-8 mt-12 ">
         <Card
           image={cardOne}
           title="Bespoke Customization"
