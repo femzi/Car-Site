@@ -12,19 +12,19 @@ function About (){
 
         </p>
             <div className="flex flex-row pb-20 text-gray-400">
-                <div>
-                    <p className="mt-8 md:hidden">
-                        For decades we have been more than a dealership, <br/>  we are curators of the extraodrdinary 
-                    </p>
-                    </div>
-
-                    <div className="mt-1  md:mt-5 lg:mr-7 lg:ml-30 xl:ml-50 leading-wider">
+             
+                    <div className="mt-1   xl:mr-80 md:mt-5 lg:mr-7  leading-wider">
 
                            <p>
-                       We believe luxury is not just about what you<br className="hidden lg:block"/>  are drive,but about <br className="hidden xl:block"/>
-                        the experience it brings.  <br className="hidden lg:block"/>  That's why we go  beyound selling cars <br className="hidden xl:block"/>
-                        we create <br className="hidden lg:block"/> <br className="hidden md:block"/>  a lifestyle of exclusivity,sophistication and <br className="hidden xl:block"/>
+                                                For decades we have been more than a dealership, we are curators of the extraodrdinary 
+                       We believe luxury is not just about what you are drive,but about 
+                        the experience it brings.  That's why we go  beyound selling cars 
+                        we create  a lifestyle of exclusivity,sophistication and
                         unmatched quality 
+                            <span className="hidden md:block">  For decades we have been more than a dealership, we are curators of the extraodrdinary 
+                                 we create  a lifestyle of exclusivity,sophistication and
+                        unmatched quality 
+                              For decades we have been more than a dealership, we are curators of the extraodrdinary </span>
                     </p>
                     </div>
                 </div>

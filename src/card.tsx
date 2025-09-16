@@ -12,7 +12,7 @@ function Card({ image, title, description, buttonText }: CardProps) {
 
 
 
-    <div className="bg-[#1A1A1A] xl:mr-20 lg:mr-10   font-mono rounded-2xl shadow-lg overflow-hidden w-80 md:w-170 md:mb-10 hover:shadow-xl transition-shadow duration-300">
+    <div className="bg-[#1A1A1A] xl:mr-20 lg:mr-10   font-mono rounded-2xl shadow-lg overflow-hidden w-80 md:w-170 mb-10 lg:mb-0 xl:mb-0 hover:shadow-xl transition-shadow duration-300">
       <img src={image} alt={title} className="w-full h-48 object-cover" />
       <div className="p-6">
         <h3 className="text-lg  font-bold mb-2 text-white">{title}</h3>

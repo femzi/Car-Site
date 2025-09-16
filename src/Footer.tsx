@@ -3,11 +3,12 @@ function Footer() {
     "text-gray-400 hover:text-white transition-transform duration-300 transform hover:-translate-x-1 hover:rotate-y-12 origin-left";
 
   return (
-    <footer className="bg-[#0F0F0F] text-white px-20 py-16 font-mono">
+ <>
+   <footer className="hidden md:block  bg-[#0F0F0F] text-white px-20 py-16 font-mono">
       <div className="grid grid-cols-4 gap-10">
         {/* Brand + description */}
         <div>
-          <h2 className="text-xl font-semibold">LuxeMotion</h2>
+          <h2 className="text-xl xl:text-2xl font-semibold">LuxeMotion</h2>
        
         </div>
 
@@ -54,8 +55,48 @@ function Footer() {
         </div>
       </div>
     </footer>
+ 
+ 
+ <footer className="block md:hidden lg:hidden xl:hidden bg-[#0F0F0F] text-white px-6 py-10 font-mono">
+  <div className="space-y-6 text-center">
+    {/* Brand */}
+    <div>
+      <h2 className="text-lg font-semibold">LuxeMotion</h2>
+    </div>
+
+    {/* Quick Links */}
+    <div>
+      <h3 className="font-semibold mb-2">Links</h3>
+      <ul className="space-y-1 flex flex-row text-sm text-gray-400">
+        <li><a href="#" className="hover:text-white ml-5 pl-7">Home</a></li>
+        <li><a href="#" className="hover:text-white pl-7">Services</a></li>
+        <li><a href="#" className="hover:text-white pl-7">About</a></li>
+        <li><a href="#" className="hover:text-white pl-7">Contact</a></li>
+      </ul>
+    </div>
+
+    {/* Social */}
+    <div>
+      <h3 className="font-semibold mb-2">Follow Us</h3>
+      <ul className="flex justify-center space-x-4 text-sm text-gray-400">
+        <li><a href="#" className="hover:text-white">FB</a></li>
+        <li><a href="#" className="hover:text-white">IG</a></li>
+        <li><a href="#" className="hover:text-white">TW</a></li>
+        <li><a href="#" className="hover:text-white">YT</a></li>
+      </ul>
+    </div>
+  </div>
+
+  {/* Bottom */}
+  <div className="mt-8 text-xs text-gray-500 text-center">
+    <p>LuxeMotion © 2025</p>
+  </div>
+</footer>
+
+ </>
     
   );
 }
 
 export default Footer;
+ 

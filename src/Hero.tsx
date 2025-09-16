@@ -70,15 +70,15 @@ function Hero() {
       {/* Always-visible Text (Hero Heading) */}
       <div className="absolute inset-0 flex items-start">
         <div className="mt-24 ml-12">
-          <h1 className="text-white text-7xl font-bold drop-shadow-lg">
+          <h1 className="text-white text-4xl md:text-5xl lg:text-7xl xl:text-7xl font-bold drop-shadow-lg">
             Luxury Without Limits
           </h1>
-          <p className="text-white text-lg mt-4 drop-shadow-md">
+          <p className="text-white text-sm md:text-lg mt-4 drop-shadow-md">
             A curated selection of the world's finest automobiles.
             <br />
             Unrivaled performance. Unparalleled elegance.
           </p>
-            <p className="text-white text-lg hovring font-semibold mt-7 pl-10 py-5 px-5 border mr-120 cursor-target"> Explore Collections  </p>
+            <p className="text-white text-lg hovring font-semibold mt-7 pl-10 py-5 px-5 border md:mr-120 mr-30 cursor-target"> Explore Collections  </p>
         </div>
       </div>
 
