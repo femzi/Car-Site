@@ -15,7 +15,7 @@ function Why(){
         Crafting Excellence, Defining Luxury 
     </p>
 
-  <div className='row'>
+  <div className='lg:row xl:row mr-8'>
     <div>
 
   <img className='xl:w-180  ' src={car} alt="" />
@@ -23,7 +23,7 @@ function Why(){
     <div>
         <ul className='ml-10'>
             <li>
-                 <p className='mb-4 text-2xl font-bold'>
+                 <p className='mb-4 md:mt-10 text-2xl font-bold'>
                     Global Presence
                 </p>
                 <p className='text-gray-400 mb-5  lg:text-sm'>
@@ -51,7 +51,7 @@ function Why(){
                   expectations
                 </p>
             </li>
-               <p className="text-white text-lg hovring font-semibold mt-7 py-5 px-5 border xl:mr-80 lg:mr-40 cursor-target"> Explore Collections  </p>
+               <p className="text-white text-lg hovring font-semibold mt-7 py-5 px-5 border xl:mr-80 lg:mr-40 md:mr-98 cursor-target"> Explore Collections  </p>
      
         </ul>
     </div>

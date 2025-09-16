@@ -47,7 +47,7 @@ function Services() {
       </div>
 
       {/* Cards (centered) */}
-      <div className="flex justify-center xl:gap-8 mt-12 ">
+      <div className="flex  md:flex-col xl:gap-8 mt-12 ">
         <Card
           image={cardOne}
           title="Bespoke Customization"
