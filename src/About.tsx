@@ -18,12 +18,12 @@ function About (){
                     </p>
                     </div>
 
-                    <div className="mt-1 ml-50">
+                    <div className="mt-1  lg:mr-7 lg:ml-30 xl:ml-50 leading-wider">
 
                            <p>
-                       We believe luxury is not just about what you are drive,but about <br/>
-                        the experience it brings. That's why we go beyound selling cars<br/>
-                        we create a lifestyle of exclusivity,sophistication and <br/>
+                       We believe luxury is not just about what you<br className="hidden lg:block"/>  are drive,but about <br className="hidden xl:block"/>
+                        the experience it brings.  <br className="hidden lg:block"/>  That's why we go  beyound selling cars <br className="hidden xl:block"/>
+                        we create <br className="hidden lg:block"/>  a lifestyle of exclusivity,sophistication and <br className="hidden xl:block"/>
                         unmatched quality 
                     </p>
                     </div>
